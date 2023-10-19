@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', sans-serif;
+}
+
+body{
+    background: white;
+
+}
+h1 {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.75rem;
+    background: blue;
+}
+
+.container{
+    display: flex;
+    gap: 35px;
+    padding: 30px;
+
+}
+
+.weather-input{
+    width: 550px;
+
+}
+
+.weather-input input{
+    width: 100%;
+    height: 46px;
+    outline: none;
+    padding: 0 17px;
+    margin: 10px 0 20px;
+    font-size: 0 1.07rem;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.weather-input .separator{
+    height: 1px;
+    width: 100px;
+    background: #bbb;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+weather-input .separator::before{
+    content: "or";
+    color: #6C7570;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    background: #E3F2FD;
+
+}
+
+.weahter-input button{
+    width: 100px;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    background: blue;
+
+}
+
+weather-input .location-btn {
+    background: #6C7570;
+
+}
+
+.weather-data{
+    width: 100%;
+
+}
+
+.current-weather{
+    color: #fff;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    background: blue;
+    justify-content: space-between;
+}
+
+.current-weather h2{
+    font-size: 1.7rem;
+}
+
+.weater-data h4{
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.current-weather .icon img{
+    max-width: 120px;
+    margin-top: -15px;
+}
+
+.current-weather .icon h5{
+    margin-top: -10px;
+    text-transform: capitalize;
+}
